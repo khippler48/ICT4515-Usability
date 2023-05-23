@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="ICT 4515 Week 6 Assignment - Home Page">
+    <meta name="author" content="Kate Hippler">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles and fonts -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/Local2659.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://file.myfontastic.com/qgfEkVaJTouwtJP9zgenfc/icons.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/Favicon/favicon-16x16.png">
+
+    <title>Farmington Hills Firefighters Association | Home</title>
+
+  </head>
+  
+  <body>
+    <header>
+    <!-- Heading with Navigation bar -->
+        <nav class="navbar navbar-expand-md ">
+            <a class="navbar-brand text-uppercase ps-2" href="./index.html" id="brand">FHFD Local 2659</a>
+            <button class="navbar-toggler navbar-toggler-right btn-light" type="button" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <Ul class="navbar-nav ml-auto" id="navList">
+                    <li class="navbar-item " id="nav1">
+                        <a href="../index.html" class="nav-link text-white" id="home">Home</a>
+                    </li>
+                    <li class="navbar-item active" id="nav2">
+                        <a href="../pages/adminLogin.html" class="nav-link text-white" >Login</a>
+                    </li>          
+                </Ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="jumbotron background-login pt-5 pb-5">
+
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center pt-3">
+                <h1 class="font-weight-bold text-uppercase text-white pt-3 text-center" id="adminTitle">Hello!</h1>
+            </div>
+            <div class="row justify-content-center pb-3" id="subhead">
+                <h6 class="font-weight-light display-5 lead text-center text-white">Please log into your account</h6>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!--Login Form-->
+    <div class="container pt-5 pb-5" id="signin">
+        <div class="row" id="notify">
+            <div class="col-12" id="alert"></div> 
+        </div>
+        <form class="needs-validation" action="" id="form" class="justify-content-center pt-3" novalidate>
+            <div class="form-group row">
+                <label for="username" class="col-sm-2 col-form-label">Username</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="Username" id="username" placeholder="Username" required>
+                    <div class="invalid-feedback">Username could not be found</div>
+                </div>
+            </div>
+            <div class="form-group row pt-3 pb-4">
+                <label for="password" class="col-sm-2 col-form-label text-right">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+                    <div class="invalid-feedback">Password is incorrect</div>
+                    <small class="form-text text-right text-muted pt-2 pb-2"><a href="#">Forgot password?</a></small>
+                </div>
+            </div>
+            <div class="form-group row" id="button">
+                <div class="col-sm-10 col-md-3 offset-md-2 col-lg-2 offset-lg-2">
+                    <button type="submit" class="btn btn-dark btn-block" id="submit">Login</button>
+                </div>
+            </div>
+
+        </form>       
+    </div>
+
+    
+
+    <!--Footer for admin pages only-->
+    <footer class="footer" id="footer">
+        <div class="bg-light">
+
+                <div class="row pl-3">
+                    <div class="col-md-12">
+                        <small class="text-dark text-left">Copyright  Kate Hippler 2023 | University of Denver ICT 4515</small>
+                    </div>
+                    
+                </div>
+
+        </div>
+        <div>
+            <div class="col-12">
+
+
+            </div>
+    
+        </div>
+       </footer>
+
+   <!-- JavaScript -->
+   <script src="../javascript/memberLogin.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+   </body>
+
+</html>

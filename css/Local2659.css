@@ -1,0 +1,138 @@
+:root {
+  --lightRed: rgb(140, 43, 52);
+  --red: #590202;
+  --darkRed: #260101;
+  --black: #2b2d42;
+  --grey: #e8e8e8;
+  --white: #ffffff;
+  --tan: #8C7A70;
+}
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Navigation */
+nav {
+  background-color:var(--darkRed);
+}
+
+#brand {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#navList {
+  color: var(--white);
+}
+
+/*--------------------------------------------------------------
+# Button Styling
+--------------------------------------------------------------*/
+#aboutUsBtn {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+#aboutUsBtn:hover {
+  background-color: var(--lightRed);
+  color: var(--white);
+}
+
+/*--------------------------------------------------------------
+# Intro Styling
+--------------------------------------------------------------*/
+#intro h1 {
+  font-weight: 800;
+  font-size: 50px;
+  color: var(--darkRed);
+}
+
+#intro p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/*--------------------------------------------------------------
+# block stripe Styling
+--------------------------------------------------------------*/
+#blockstripe h1 {
+  font-size: 90px;
+}
+
+#blockstripe h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+#firesafetyblock:hover, #charityblock:hover, #contactblock:hover {
+  background-color: rgba(140,43,52,.75);
+  color: var(--white);
+}
+
+/*--------------------------------------------------------------
+# social stripe Styling
+--------------------------------------------------------------*/
+#social h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--darkRed);
+}
+
+#social h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--darkRed);
+}
+
+
+/*--------------------------------------------------------------
+# footerStyling
+--------------------------------------------------------------*/
+footer {
+  background-color:var(--darkRed);
+}
+
+#footer ul {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#footer li {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/*--------------------------------------------------------------
+# login page Styling
+--------------------------------------------------------------*/
+.background-login {
+  padding: 40px 0 40px 0;
+  background-image: URL(../images/FHFD_truck_900x300.png);
+  background-size: cover;
+  
+}
+
+#adminTitle {
+  font-size: 90px;
+  font-weight: 800;
+}
+
+#subhead {
+  font-size: 90px;
+  font-weight: 500;
+}
+
+#signin #submit {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+#signin #submit:hover {
+  background-color: var(--lightRed);
+  color: var(--white);
+}
+/* footer */
+
+  
